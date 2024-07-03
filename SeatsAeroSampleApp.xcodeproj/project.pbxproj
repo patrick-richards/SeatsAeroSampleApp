@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE32DE9F2C34DA1D00B5D3A2 /* SeatsAeroAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AE32DE9E2C34DA1D00B5D3A2 /* SeatsAeroAPI */; };
+		AE331D7B2C226CF800110F4E /* SeatsAeroSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D7A2C226CF800110F4E /* SeatsAeroSampleApp.swift */; };
+		AE331D7F2C226CF900110F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE331D7E2C226CF900110F4E /* Assets.xcassets */; };
+		AE331DBE2C226D7400110F4E /* CarrierImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D892C226D7400110F4E /* CarrierImageView.swift */; };
+		AE331DBF2C226D7400110F4E /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D8A2C226D7400110F4E /* LoadingState.swift */; };
+		AE331DC02C226D7400110F4E /* PlaneLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D8B2C226D7400110F4E /* PlaneLoadingView.swift */; };
+		AE331DC12C226D7400110F4E /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D8D2C226D7400110F4E /* Explore.swift */; };
+		AE331DC22C226D7400110F4E /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D8E2C226D7400110F4E /* Query.swift */; };
+		AE331DC32C226D7400110F4E /* SavedQueriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D8F2C226D7400110F4E /* SavedQueriesRepository.swift */; };
+		AE331DC42C226D7400110F4E /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D902C226D7400110F4E /* Search.swift */; };
+		AE331DC52C226D7400110F4E /* SearchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D912C226D7400110F4E /* SearchFilter.swift */; };
+		AE331DC62C226D7400110F4E /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D932C226D7400110F4E /* ExploreView.swift */; };
+		AE331DC72C226D7400110F4E /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D942C226D7400110F4E /* ExploreViewModel.swift */; };
+		AE331DC82C226D7400110F4E /* AvailabilityMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D962C226D7400110F4E /* AvailabilityMapView.swift */; };
+		AE331DC92C226D7400110F4E /* AvailabilityMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D972C226D7400110F4E /* AvailabilityMapViewModel.swift */; };
+		AE331DCA2C226D7400110F4E /* TripRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D982C226D7400110F4E /* TripRowView.swift */; };
+		AE331DCB2C226D7400110F4E /* AvailabilityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D9A2C226D7400110F4E /* AvailabilityDetailView.swift */; };
+		AE331DCC2C226D7400110F4E /* AvailabilityDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D9B2C226D7400110F4E /* AvailabilityDetailViewModel.swift */; };
+		AE331DCD2C226D7400110F4E /* AirportPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D9D2C226D7400110F4E /* AirportPickerView.swift */; };
+		AE331DCE2C226D7400110F4E /* CabinPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D9E2C226D7400110F4E /* CabinPickerView.swift */; };
+		AE331DCF2C226D7400110F4E /* MultipleSourcePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D9F2C226D7400110F4E /* MultipleSourcePickerView.swift */; };
+		AE331DD02C226D7400110F4E /* RegionPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DA02C226D7400110F4E /* RegionPickerView.swift */; };
+		AE331DD12C226D7400110F4E /* SingleSourcePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DA12C226D7400110F4E /* SingleSourcePickerView.swift */; };
+		AE331DD22C226D7400110F4E /* AvailabilityCabinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DA32C226D7400110F4E /* AvailabilityCabinView.swift */; };
+		AE331DD32C226D7400110F4E /* AvailabilityCabinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DA42C226D7400110F4E /* AvailabilityCabinViewModel.swift */; };
+		AE331DD42C226D7400110F4E /* AvailabilityRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DA52C226D7400110F4E /* AvailabilityRowView.swift */; };
+		AE331DD52C226D7400110F4E /* AvailabilityTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DA62C226D7400110F4E /* AvailabilityTitleView.swift */; };
+		AE331DD62C226D7400110F4E /* AvailabilityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DA72C226D7400110F4E /* AvailabilityViewModel.swift */; };
+		AE331DD72C226D7400110F4E /* bulk_availability_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = AE331DA92C226D7400110F4E /* bulk_availability_sample.json */; };
+		AE331DD82C226D7400110F4E /* cached_search_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = AE331DAA2C226D7400110F4E /* cached_search_sample.json */; };
+		AE331DD92C226D7400110F4E /* routes_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = AE331DAB2C226D7400110F4E /* routes_sample.json */; };
+		AE331DDA2C226D7400110F4E /* trip_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = AE331DAC2C226D7400110F4E /* trip_sample.json */; };
+		AE331DDB2C226D7400110F4E /* AirportExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DAE2C226D7400110F4E /* AirportExtensions.swift */; };
+		AE331DDC2C226D7400110F4E /* AvailabilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DAF2C226D7400110F4E /* AvailabilityExtensions.swift */; };
+		AE331DDD2C226D7400110F4E /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DB02C226D7400110F4E /* BundleExtensions.swift */; };
+		AE331DDE2C226D7400110F4E /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DB12C226D7400110F4E /* DateExtensions.swift */; };
+		AE331DDF2C226D7400110F4E /* SourceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DB22C226D7400110F4E /* SourceExtensions.swift */; };
+		AE331DE02C226D7400110F4E /* TripExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DB32C226D7400110F4E /* TripExtensions.swift */; };
+		AE331DE12C226D7400110F4E /* SavedQueriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DB52C226D7400110F4E /* SavedQueriesView.swift */; };
+		AE331DE22C226D7400110F4E /* SavedQueriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DB62C226D7400110F4E /* SavedQueriesViewModel.swift */; };
+		AE331DE32C226D7400110F4E /* SavedQueryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DB72C226D7400110F4E /* SavedQueryRowView.swift */; };
+		AE331DE42C226D7400110F4E /* SavedQueryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DB82C226D7400110F4E /* SavedQueryViewModel.swift */; };
+		AE331DE52C226D7400110F4E /* AvailabilitySearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DBA2C226D7400110F4E /* AvailabilitySearchFilterView.swift */; };
+		AE331DE62C226D7400110F4E /* AvailabilitySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DBB2C226D7400110F4E /* AvailabilitySearchView.swift */; };
+		AE331DE72C226D7400110F4E /* AvailabilitySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331DBC2C226D7400110F4E /* AvailabilitySearchViewModel.swift */; };
+		AE6365D22C2280AA00B9D5D2 /* SeatsAeroAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AE6365D12C2280AA00B9D5D2 /* SeatsAeroAPI */; };
+		AE84CC8B2C22837600F1BBB2 /* SeatsAeroAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AE84CC8A2C22837600F1BBB2 /* SeatsAeroAPI */; };
+		AEF398262C22B9E700859D8B /* ExploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF398252C22B9E700859D8B /* ExploreTests.swift */; };
+		AEF3982C2C22BA4200859D8B /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D8D2C226D7400110F4E /* Explore.swift */; };
+		AEF3982F2C22C17E00859D8B /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE331D902C226D7400110F4E /* Search.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF398272C22B9E700859D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE331D6F2C226CF800110F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE331D762C226CF800110F4E;
+			remoteInfo = SeatsAeroSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE331D772C226CF800110F4E /* SeatsAeroSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatsAeroSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE331D7A2C226CF800110F4E /* SeatsAeroSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsAeroSampleApp.swift; sourceTree = "<group>"; };
+		AE331D7E2C226CF900110F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE331D882C226D2000110F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AE331D892C226D7400110F4E /* CarrierImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarrierImageView.swift; sourceTree = "<group>"; };
+		AE331D8A2C226D7400110F4E /* LoadingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		AE331D8B2C226D7400110F4E /* PlaneLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneLoadingView.swift; sourceTree = "<group>"; };
+		AE331D8D2C226D7400110F4E /* Explore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		AE331D8E2C226D7400110F4E /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		AE331D8F2C226D7400110F4E /* SavedQueriesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedQueriesRepository.swift; sourceTree = "<group>"; };
+		AE331D902C226D7400110F4E /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		AE331D912C226D7400110F4E /* SearchFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFilter.swift; sourceTree = "<group>"; };
+		AE331D932C226D7400110F4E /* ExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		AE331D942C226D7400110F4E /* ExploreViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		AE331D962C226D7400110F4E /* AvailabilityMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityMapView.swift; sourceTree = "<group>"; };
+		AE331D972C226D7400110F4E /* AvailabilityMapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityMapViewModel.swift; sourceTree = "<group>"; };
+		AE331D982C226D7400110F4E /* TripRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripRowView.swift; sourceTree = "<group>"; };
+		AE331D9A2C226D7400110F4E /* AvailabilityDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityDetailView.swift; sourceTree = "<group>"; };
+		AE331D9B2C226D7400110F4E /* AvailabilityDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityDetailViewModel.swift; sourceTree = "<group>"; };
+		AE331D9D2C226D7400110F4E /* AirportPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportPickerView.swift; sourceTree = "<group>"; };
+		AE331D9E2C226D7400110F4E /* CabinPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinPickerView.swift; sourceTree = "<group>"; };
+		AE331D9F2C226D7400110F4E /* MultipleSourcePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSourcePickerView.swift; sourceTree = "<group>"; };
+		AE331DA02C226D7400110F4E /* RegionPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionPickerView.swift; sourceTree = "<group>"; };
+		AE331DA12C226D7400110F4E /* SingleSourcePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSourcePickerView.swift; sourceTree = "<group>"; };
+		AE331DA32C226D7400110F4E /* AvailabilityCabinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityCabinView.swift; sourceTree = "<group>"; };
+		AE331DA42C226D7400110F4E /* AvailabilityCabinViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityCabinViewModel.swift; sourceTree = "<group>"; };
+		AE331DA52C226D7400110F4E /* AvailabilityRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityRowView.swift; sourceTree = "<group>"; };
+		AE331DA62C226D7400110F4E /* AvailabilityTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityTitleView.swift; sourceTree = "<group>"; };
+		AE331DA72C226D7400110F4E /* AvailabilityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityViewModel.swift; sourceTree = "<group>"; };
+		AE331DA92C226D7400110F4E /* bulk_availability_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bulk_availability_sample.json; sourceTree = "<group>"; };
+		AE331DAA2C226D7400110F4E /* cached_search_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cached_search_sample.json; sourceTree = "<group>"; };
+		AE331DAB2C226D7400110F4E /* routes_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routes_sample.json; sourceTree = "<group>"; };
+		AE331DAC2C226D7400110F4E /* trip_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trip_sample.json; sourceTree = "<group>"; };
+		AE331DAE2C226D7400110F4E /* AirportExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportExtensions.swift; sourceTree = "<group>"; };
+		AE331DAF2C226D7400110F4E /* AvailabilityExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityExtensions.swift; sourceTree = "<group>"; };
+		AE331DB02C226D7400110F4E /* BundleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		AE331DB12C226D7400110F4E /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		AE331DB22C226D7400110F4E /* SourceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceExtensions.swift; sourceTree = "<group>"; };
+		AE331DB32C226D7400110F4E /* TripExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripExtensions.swift; sourceTree = "<group>"; };
+		AE331DB52C226D7400110F4E /* SavedQueriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedQueriesView.swift; sourceTree = "<group>"; };
+		AE331DB62C226D7400110F4E /* SavedQueriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedQueriesViewModel.swift; sourceTree = "<group>"; };
+		AE331DB72C226D7400110F4E /* SavedQueryRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedQueryRowView.swift; sourceTree = "<group>"; };
+		AE331DB82C226D7400110F4E /* SavedQueryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedQueryViewModel.swift; sourceTree = "<group>"; };
+		AE331DBA2C226D7400110F4E /* AvailabilitySearchFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilitySearchFilterView.swift; sourceTree = "<group>"; };
+		AE331DBB2C226D7400110F4E /* AvailabilitySearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilitySearchView.swift; sourceTree = "<group>"; };
+		AE331DBC2C226D7400110F4E /* AvailabilitySearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilitySearchViewModel.swift; sourceTree = "<group>"; };
+		AEF398232C22B9E700859D8B /* SeatsAeroSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatsAeroSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF398252C22B9E700859D8B /* ExploreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE331D742C226CF800110F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6365D22C2280AA00B9D5D2 /* SeatsAeroAPI in Frameworks */,
+				AE32DE9F2C34DA1D00B5D3A2 /* SeatsAeroAPI in Frameworks */,
+				AE84CC8B2C22837600F1BBB2 /* SeatsAeroAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF398202C22B9E700859D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE331D6E2C226CF800110F4E = {
+			isa = PBXGroup;
+			children = (
+				AE331D792C226CF800110F4E /* SeatsAeroSampleApp */,
+				AEF398242C22B9E700859D8B /* SeatsAeroSampleAppTests */,
+				AE331D782C226CF800110F4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE331D782C226CF800110F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE331D772C226CF800110F4E /* SeatsAeroSampleApp.app */,
+				AEF398232C22B9E700859D8B /* SeatsAeroSampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE331D792C226CF800110F4E /* SeatsAeroSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				AE331D882C226D2000110F4E /* Info.plist */,
+				AE331D7A2C226CF800110F4E /* SeatsAeroSampleApp.swift */,
+				AE331D922C226D7400110F4E /* Search Models */,
+				AE331D952C226D7400110F4E /* Explore View */,
+				AE331DBD2C226D7400110F4E /* Search View */,
+				AE331DB92C226D7400110F4E /* Saved Queries View */,
+				AE331D8C2C226D7400110F4E /* Accessories */,
+				AE331DA82C226D7400110F4E /* Availability */,
+				AE331D9C2C226D7400110F4E /* Availability Detail */,
+				AE331DA22C226D7400110F4E /* Pickers */,
+				AE331DB42C226D7400110F4E /* Extensions */,
+				AE331D7E2C226CF900110F4E /* Assets.xcassets */,
+			);
+			path = SeatsAeroSampleApp;
+			sourceTree = "<group>";
+		};
+		AE331D8C2C226D7400110F4E /* Accessories */ = {
+			isa = PBXGroup;
+			children = (
+				AE331D892C226D7400110F4E /* CarrierImageView.swift */,
+				AE331D8A2C226D7400110F4E /* LoadingState.swift */,
+				AE331D8B2C226D7400110F4E /* PlaneLoadingView.swift */,
+			);
+			path = Accessories;
+			sourceTree = "<group>";
+		};
+		AE331D922C226D7400110F4E /* Search Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE331D8D2C226D7400110F4E /* Explore.swift */,
+				AE331D8E2C226D7400110F4E /* Query.swift */,
+				AE331D8F2C226D7400110F4E /* SavedQueriesRepository.swift */,
+				AE331D902C226D7400110F4E /* Search.swift */,
+				AE331D912C226D7400110F4E /* SearchFilter.swift */,
+			);
+			path = "Search Models";
+			sourceTree = "<group>";
+		};
+		AE331D952C226D7400110F4E /* Explore View */ = {
+			isa = PBXGroup;
+			children = (
+				AE331D942C226D7400110F4E /* ExploreViewModel.swift */,
+				AE331D932C226D7400110F4E /* ExploreView.swift */,
+			);
+			path = "Explore View";
+			sourceTree = "<group>";
+		};
+		AE331D992C226D7400110F4E /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				AE331D972C226D7400110F4E /* AvailabilityMapViewModel.swift */,
+				AE331D962C226D7400110F4E /* AvailabilityMapView.swift */,
+				AE331D982C226D7400110F4E /* TripRowView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		AE331D9C2C226D7400110F4E /* Availability Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AE331D9B2C226D7400110F4E /* AvailabilityDetailViewModel.swift */,
+				AE331D9A2C226D7400110F4E /* AvailabilityDetailView.swift */,
+				AE331D992C226D7400110F4E /* Subviews */,
+			);
+			path = "Availability Detail";
+			sourceTree = "<group>";
+		};
+		AE331DA22C226D7400110F4E /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				AE331D9D2C226D7400110F4E /* AirportPickerView.swift */,
+				AE331D9E2C226D7400110F4E /* CabinPickerView.swift */,
+				AE331D9F2C226D7400110F4E /* MultipleSourcePickerView.swift */,
+				AE331DA02C226D7400110F4E /* RegionPickerView.swift */,
+				AE331DA12C226D7400110F4E /* SingleSourcePickerView.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		AE331DA82C226D7400110F4E /* Availability */ = {
+			isa = PBXGroup;
+			children = (
+				AE331DA42C226D7400110F4E /* AvailabilityCabinViewModel.swift */,
+				AE331DA32C226D7400110F4E /* AvailabilityCabinView.swift */,
+				AE331DA72C226D7400110F4E /* AvailabilityViewModel.swift */,
+				AE331DA52C226D7400110F4E /* AvailabilityRowView.swift */,
+				AE331DA62C226D7400110F4E /* AvailabilityTitleView.swift */,
+			);
+			path = Availability;
+			sourceTree = "<group>";
+		};
+		AE331DAD2C226D7400110F4E /* Sample responses */ = {
+			isa = PBXGroup;
+			children = (
+				AE331DA92C226D7400110F4E /* bulk_availability_sample.json */,
+				AE331DAA2C226D7400110F4E /* cached_search_sample.json */,
+				AE331DAB2C226D7400110F4E /* routes_sample.json */,
+				AE331DAC2C226D7400110F4E /* trip_sample.json */,
+			);
+			path = "Sample responses";
+			sourceTree = "<group>";
+		};
+		AE331DB42C226D7400110F4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE331DAD2C226D7400110F4E /* Sample responses */,
+				AE331DAE2C226D7400110F4E /* AirportExtensions.swift */,
+				AE331DAF2C226D7400110F4E /* AvailabilityExtensions.swift */,
+				AE331DB02C226D7400110F4E /* BundleExtensions.swift */,
+				AE331DB12C226D7400110F4E /* DateExtensions.swift */,
+				AE331DB22C226D7400110F4E /* SourceExtensions.swift */,
+				AE331DB32C226D7400110F4E /* TripExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AE331DB92C226D7400110F4E /* Saved Queries View */ = {
+			isa = PBXGroup;
+			children = (
+				AE331DB62C226D7400110F4E /* SavedQueriesViewModel.swift */,
+				AE331DB52C226D7400110F4E /* SavedQueriesView.swift */,
+				AE331DB82C226D7400110F4E /* SavedQueryViewModel.swift */,
+				AE331DB72C226D7400110F4E /* SavedQueryRowView.swift */,
+			);
+			path = "Saved Queries View";
+			sourceTree = "<group>";
+		};
+		AE331DBD2C226D7400110F4E /* Search View */ = {
+			isa = PBXGroup;
+			children = (
+				AE331DBC2C226D7400110F4E /* AvailabilitySearchViewModel.swift */,
+				AE331DBB2C226D7400110F4E /* AvailabilitySearchView.swift */,
+				AE331DBA2C226D7400110F4E /* AvailabilitySearchFilterView.swift */,
+			);
+			path = "Search View";
+			sourceTree = "<group>";
+		};
+		AEF398242C22B9E700859D8B /* SeatsAeroSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF398252C22B9E700859D8B /* ExploreTests.swift */,
+			);
+			path = SeatsAeroSampleAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE331D762C226CF800110F4E /* SeatsAeroSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE331D852C226CF900110F4E /* Build configuration list for PBXNativeTarget "SeatsAeroSampleApp" */;
+			buildPhases = (
+				AE331D732C226CF800110F4E /* Sources */,
+				AE331D742C226CF800110F4E /* Frameworks */,
+				AE331D752C226CF800110F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeatsAeroSampleApp;
+			packageProductDependencies = (
+				AE6365D12C2280AA00B9D5D2 /* SeatsAeroAPI */,
+				AE84CC8A2C22837600F1BBB2 /* SeatsAeroAPI */,
+				AE32DE9E2C34DA1D00B5D3A2 /* SeatsAeroAPI */,
+			);
+			productName = SeatsAeroSampleApp;
+			productReference = AE331D772C226CF800110F4E /* SeatsAeroSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF398222C22B9E700859D8B /* SeatsAeroSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF398292C22B9E700859D8B /* Build configuration list for PBXNativeTarget "SeatsAeroSampleAppTests" */;
+			buildPhases = (
+				AEF3981F2C22B9E700859D8B /* Sources */,
+				AEF398202C22B9E700859D8B /* Frameworks */,
+				AEF398212C22B9E700859D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF398282C22B9E700859D8B /* PBXTargetDependency */,
+			);
+			name = SeatsAeroSampleAppTests;
+			productName = SeatsAeroSampleAppTests;
+			productReference = AEF398232C22B9E700859D8B /* SeatsAeroSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE331D6F2C226CF800110F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AE331D762C226CF800110F4E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AEF398222C22B9E700859D8B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AE331D762C226CF800110F4E;
+					};
+				};
+			};
+			buildConfigurationList = AE331D722C226CF800110F4E /* Build configuration list for PBXProject "SeatsAeroSampleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE331D6E2C226CF800110F4E;
+			packageReferences = (
+				AE32DE9D2C34DA1D00B5D3A2 /* XCRemoteSwiftPackageReference "SeatsAeroAPI" */,
+			);
+			productRefGroup = AE331D782C226CF800110F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE331D762C226CF800110F4E /* SeatsAeroSampleApp */,
+				AEF398222C22B9E700859D8B /* SeatsAeroSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE331D752C226CF800110F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE331D7F2C226CF900110F4E /* Assets.xcassets in Resources */,
+				AE331DD72C226D7400110F4E /* bulk_availability_sample.json in Resources */,
+				AE331DD92C226D7400110F4E /* routes_sample.json in Resources */,
+				AE331DDA2C226D7400110F4E /* trip_sample.json in Resources */,
+				AE331DD82C226D7400110F4E /* cached_search_sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF398212C22B9E700859D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE331D732C226CF800110F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE331DCB2C226D7400110F4E /* AvailabilityDetailView.swift in Sources */,
+				AE331DC72C226D7400110F4E /* ExploreViewModel.swift in Sources */,
+				AE331DCC2C226D7400110F4E /* AvailabilityDetailViewModel.swift in Sources */,
+				AE331DE52C226D7400110F4E /* AvailabilitySearchFilterView.swift in Sources */,
+				AE331DDE2C226D7400110F4E /* DateExtensions.swift in Sources */,
+				AE331DC62C226D7400110F4E /* ExploreView.swift in Sources */,
+				AE331DDC2C226D7400110F4E /* AvailabilityExtensions.swift in Sources */,
+				AE331DE32C226D7400110F4E /* SavedQueryRowView.swift in Sources */,
+				AE331DC42C226D7400110F4E /* Search.swift in Sources */,
+				AE331DC32C226D7400110F4E /* SavedQueriesRepository.swift in Sources */,
+				AE331DD62C226D7400110F4E /* AvailabilityViewModel.swift in Sources */,
+				AE331DE72C226D7400110F4E /* AvailabilitySearchViewModel.swift in Sources */,
+				AE331DD32C226D7400110F4E /* AvailabilityCabinViewModel.swift in Sources */,
+				AE331DC82C226D7400110F4E /* AvailabilityMapView.swift in Sources */,
+				AE331DBF2C226D7400110F4E /* LoadingState.swift in Sources */,
+				AE331DC22C226D7400110F4E /* Query.swift in Sources */,
+				AE331DDB2C226D7400110F4E /* AirportExtensions.swift in Sources */,
+				AE331DC02C226D7400110F4E /* PlaneLoadingView.swift in Sources */,
+				AE331DCD2C226D7400110F4E /* AirportPickerView.swift in Sources */,
+				AE331DE22C226D7400110F4E /* SavedQueriesViewModel.swift in Sources */,
+				AE331DD52C226D7400110F4E /* AvailabilityTitleView.swift in Sources */,
+				AE331DD22C226D7400110F4E /* AvailabilityCabinView.swift in Sources */,
+				AE331DDF2C226D7400110F4E /* SourceExtensions.swift in Sources */,
+				AE331DCF2C226D7400110F4E /* MultipleSourcePickerView.swift in Sources */,
+				AE331DE42C226D7400110F4E /* SavedQueryViewModel.swift in Sources */,
+				AE331DC52C226D7400110F4E /* SearchFilter.swift in Sources */,
+				AE331DE62C226D7400110F4E /* AvailabilitySearchView.swift in Sources */,
+				AE331DD12C226D7400110F4E /* SingleSourcePickerView.swift in Sources */,
+				AE331DD02C226D7400110F4E /* RegionPickerView.swift in Sources */,
+				AE331DCA2C226D7400110F4E /* TripRowView.swift in Sources */,
+				AE331DBE2C226D7400110F4E /* CarrierImageView.swift in Sources */,
+				AE331DC92C226D7400110F4E /* AvailabilityMapViewModel.swift in Sources */,
+				AE331DE12C226D7400110F4E /* SavedQueriesView.swift in Sources */,
+				AE331DD42C226D7400110F4E /* AvailabilityRowView.swift in Sources */,
+				AE331DE02C226D7400110F4E /* TripExtensions.swift in Sources */,
+				AE331DCE2C226D7400110F4E /* CabinPickerView.swift in Sources */,
+				AE331D7B2C226CF800110F4E /* SeatsAeroSampleApp.swift in Sources */,
+				AE331DC12C226D7400110F4E /* Explore.swift in Sources */,
+				AE331DDD2C226D7400110F4E /* BundleExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF3981F2C22B9E700859D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF3982F2C22C17E00859D8B /* Search.swift in Sources */,
+				AEF398262C22B9E700859D8B /* ExploreTests.swift in Sources */,
+				AEF3982C2C22BA4200859D8B /* Explore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF398282C22B9E700859D8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE331D762C226CF800110F4E /* SeatsAeroSampleApp */;
+			targetProxy = AEF398272C22B9E700859D8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE331D832C226CF900110F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE331D842C226CF900110F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE331D862C226CF900110F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVRAFQYY7R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeatsAeroSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeatsAeroSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE331D872C226CF900110F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVRAFQYY7R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeatsAeroSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeatsAeroSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEF3982A2C22B9E700859D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVRAFQYY7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeatsAeroSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeatsAeroSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeatsAeroSampleApp";
+			};
+			name = Debug;
+		};
+		AEF3982B2C22B9E700859D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVRAFQYY7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeatsAeroSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeatsAeroSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeatsAeroSampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE331D722C226CF800110F4E /* Build configuration list for PBXProject "SeatsAeroSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE331D832C226CF900110F4E /* Debug */,
+				AE331D842C226CF900110F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE331D852C226CF900110F4E /* Build configuration list for PBXNativeTarget "SeatsAeroSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE331D862C226CF900110F4E /* Debug */,
+				AE331D872C226CF900110F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF398292C22B9E700859D8B /* Build configuration list for PBXNativeTarget "SeatsAeroSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF3982A2C22B9E700859D8B /* Debug */,
+				AEF3982B2C22B9E700859D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE32DE9D2C34DA1D00B5D3A2 /* XCRemoteSwiftPackageReference "SeatsAeroAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/patrick-richards/SeatsAeroAPI/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE32DE9E2C34DA1D00B5D3A2 /* SeatsAeroAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE32DE9D2C34DA1D00B5D3A2 /* XCRemoteSwiftPackageReference "SeatsAeroAPI" */;
+			productName = SeatsAeroAPI;
+		};
+		AE6365D12C2280AA00B9D5D2 /* SeatsAeroAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SeatsAeroAPI;
+		};
+		AE84CC8A2C22837600F1BBB2 /* SeatsAeroAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SeatsAeroAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AE331D6F2C226CF800110F4E /* Project object */;
+}

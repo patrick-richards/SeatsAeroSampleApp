@@ -1,0 +1,15 @@
+{
+  "originHash" : "c9a1b8522461190647c3be4234ae31b0cdc1bc03a6c9a5c4cba8d07d8457c9ad",
+  "pins" : [
+    {
+      "identity" : "seatsaeroapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/patrick-richards/SeatsAeroAPI/",
+      "state" : {
+        "branch" : "main",
+        "revision" : "287161db7e9c0e597af8fb2b470e5b93d3789a85"
+      }
+    }
+  ],
+  "version" : 3
+}
